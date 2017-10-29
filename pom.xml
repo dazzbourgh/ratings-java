@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>zhi.yest</groupId>
-	<artifactId>spring-boot-starter</artifactId>
+	<artifactId>ratings-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-starter</name>
+	<name>ratings-java</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -127,6 +127,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
 
 </project>
