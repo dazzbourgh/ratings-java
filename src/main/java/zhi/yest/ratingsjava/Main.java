@@ -1,12 +1,12 @@
-package zhi.yest.springbootstarter;
+package zhi.yest.ratingsjava;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootStarterApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootStarterApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 }
