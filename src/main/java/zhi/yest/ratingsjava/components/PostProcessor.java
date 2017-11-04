@@ -30,6 +30,7 @@ public class PostProcessor {
                 .collect(Collectors.joining());
     }
 
+    //TODO: wtf is that date
     private boolean isRelease(WallPostFull post) {
         String text = post.getText();
         return (text.contains("#speeeedyRelease") || text.contains("#speeeedyExclusive"))
