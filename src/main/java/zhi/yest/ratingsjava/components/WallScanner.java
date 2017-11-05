@@ -5,6 +5,7 @@ import com.vk.api.sdk.exceptions.ClientException;
 import com.vk.api.sdk.objects.wall.WallPostFull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import zhi.yest.ratingsjava.util.VkApiClientBean;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +14,7 @@ import java.util.List;
 public class WallScanner {
     @Autowired
     private VkApiClientBean vk;
+    //TODO: change to config file value maybe?
     private static Integer WALL_ID = -31352730;
 
     public List<WallPostFull> getPosts() throws ClientException, ApiException {

@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 
 @Component
 public class PostProcessor {
-    //TODO: check what should be returned
     public List<String> getGlobalTop(List<WallPostFull> posts) {
         return posts.stream()
                 .filter(this::isRelease)
